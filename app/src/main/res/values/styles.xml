@@ -29,6 +29,7 @@
         <item name="android:layout_margin">@dimen/imageView_margin</item>
     </style>
 
+    <!-- Collapsing Toolbar-->
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded.Shadow">
         <item name="android:shadowDy">2</item>
         <item name="android:shadowDx">2</item>
@@ -37,12 +38,20 @@
         <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="ItemLarge" parent="TextAppearance.MaterialComponents.Subtitle1">
+    <style name="CollapsingToolbarExpanded" parent="TextAppearance.MyTheme.Headline5">
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:shadowColor">@android:color/black</item>
+
+    </style>
+
+    <style name="ItemLarge" parent="TextAppearance.MyTheme.Subtitle1">
         <item name="android:maxLines">1</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
-    <style name="ItemMedium" parent="TextAppearance.MaterialComponents.Body2">
+    <style name="ItemMedium" parent="TextAppearance.MyTheme.Body2">
         <item name="android:maxLines">2</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
